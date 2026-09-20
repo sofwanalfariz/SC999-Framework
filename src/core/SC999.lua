@@ -2,7 +2,7 @@
 --  SC999 FRAMEWORK CORE v2.0
 --  Tab-Based iOS 27 Glassmorphism GUI · Modular Roblox Script Framework
 --  Author: Biasaemail
---  GitHub: https://github.com/Biasaemail/SC999-Framework
+--  GitHub: https://github.com/sofwanalfariz/SC999-Framework
 --===============================================================================
 
 -- PREVENT DOUBLE EXECUTION
@@ -1527,7 +1527,7 @@ function GlassGUI.SetupHomeTab()
         Size = UDim2.new(1, -20, 0, 14),
         Position = UDim2.new(0, 14, 0, 22),
         BackgroundTransparency = 1,
-        Text = "github.com/Biasaemail/SC999-Framework",
+        Text = "github.com/sofwanalfariz/SC999-Framework",
         TextColor3 = GlassGUI.Theme.AccentBlue,
         Font = Enum.Font.Gotham,
         TextSize = 10,
@@ -1614,7 +1614,7 @@ function SC999.Init()
 
     Util.Notify("SC999 Framework", "v2.0 Loaded Successfully")
     print("=== SC999 FRAMEWORK v2.0 ACTIVE ===")
-    print("GitHub: https://github.com/Biasaemail/SC999-Framework")
+    print("GitHub: https://github.com/sofwanalfariz/SC999-Framework")
 
     return SC999
 end

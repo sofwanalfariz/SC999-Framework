@@ -1,11 +1,11 @@
 --===============================================================================
 --  SC999 FRAMEWORK - MAIN LOADER v2.0
 --  One-click loader: All modules auto-loaded from GitHub
---  Usage: loadstring(game:HttpGet("https://raw.githubusercontent.com/Biasaemail/SC999-Framework/main/loader.lua"))()
---  GitHub: https://github.com/Biasaemail/SC999-Framework
+--  Usage: loadstring(game:HttpGet("https://raw.githubusercontent.com/sofwanalfariz/SC999-Framework/main/loader.lua"))()
+--  GitHub: https://github.com/sofwanalfariz/SC999-Framework
 --===============================================================================
 
-local GITHUB_BASE = "https://raw.githubusercontent.com/Biasaemail/SC999-Framework/main"
+local GITHUB_BASE = "https://raw.githubusercontent.com/sofwanalfariz/SC999-Framework/main"
 
 -- Prevent double load
 if getgenv().SC999_FrameworkLoaded then
